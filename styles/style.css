@@ -155,5 +155,75 @@ ul a {
     border: 0;
     padding: 10px 5px;
 
+}
+
+/* }
+popular related style */
+.popular-part {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.all-title {
+    color: #131318;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
 
 }
+
+.description-black {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+
+ul.a {
+    /* list-style-type: square;
+    display: flex;
+    flex-direction: column; */
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    margin: 15px 0px;
+}
+
+
+.popular-content  {
+    margin-top: 50px;
+
+}
+.popular-content li {
+   margin: 10px 0px;
+}
+
+.popular-containar > div {
+    width: 50%;
+}
+.popular-containar {
+    display: flex;
+    gap: 30px;
+}
+
+.primary-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px;
+    border: 0;
+
+}
+.popular-image img{
+    width: 100%;
+}
+/* Choose Your Destination */
