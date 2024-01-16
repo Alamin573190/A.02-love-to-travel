@@ -1,59 +1,91 @@
 @media screen and (max-width:576px) {
-    nav, ul ,.popular-containar {
+
+    nav,
+    .nav-ul,
+    .popular-containar {
         flex-direction: column;
     }
-    ul li{
+
+    .nav-ul li {
         margin-top: 10px;
     }
-    .form{
+
+    .form {
         display: block;
         padding: 10px;
         height: 230px;
-        
-        
+
+
     }
+
     .banner {
         height: 560px;
         width: 90%;
         object-fit: cover;
         padding: 20px;
         margin: 0 auto;
-       
-      
+
+
     }
-    .form button,.form input,.form select{
+
+    .form button,
+    .form input,
+    .form select {
         margin-top: 10px;
         width: 80%;
     }
-    .popular-containar{
+
+    .popular-containar {
         margin: 50px;
     }
-    
-    .popular-containar > div {
+
+    .popular-containar>div {
         width: 100%;
     }
+
     .image-containar img {
         height: 300px;
     }
+
     .image-containar {
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     margin-top: 0;
-       
-    }
-    .choss-content{
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        
+        margin-top: 0;
+
     }
-    .choos-containar{
-        margin: 0 50px;
+
+    .choss-content {
+        width: 100%;
+
     }
+
+    .choos-containar {
+        margin: 50px;
+    }
+
     .grid-title {
-       
+
         position: relative;
         bottom: 170px;
-      
-      }
- 
+
+    }
+
+    .why-choss-content {
+        width: 80%;
+        text-align: center;
+     
+    }
+    .perfect-section{
+        margin: 50px;
+    }
+    .perfect-containar{
+        flex-direction: column;
+       
+    }
+    .perfect-containar > div{
+        width: 100%;
+    
+    }
+
 }

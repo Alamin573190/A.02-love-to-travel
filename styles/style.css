@@ -54,15 +54,15 @@ nav {
     align-items: center;
 }
 
-ul {
+.nav-ul {
     display: flex;
 }
 
-ul li {
+.nav-ul li {
     list-style: none;
 }
 
-ul a {
+.nav-ul a {
     text-decoration: none;
     color: #424247;
     font-size: 18px;
@@ -262,7 +262,7 @@ ul.a {
     font-size: 1.5rem;
     font-weight: 800;
     position: relative;
-   
+
     bottom: 50%;
 
 }
@@ -293,4 +293,84 @@ ul.a {
 
 .grid-item-7 {
     grid-column: 6/span 7;
+}
+
+/* why choss related style */
+.why-choos-part {
+
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.why-choss-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chosss-box-containar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.choss-box-01 {
+    width: 450px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 15px;
+}
+
+.choss-box {
+    width: 450px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+}
+
+.why-choss-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 10px 0px;
+} 
+/* perfect related style */
+
+.perfect-section{
+    
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.perfect-content ul{
+    margin:20px;
+}
+.perfect-content li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+  
+    
+
+}
+
+.perfect-containar > div{
+    width: 50%;
+
+}
+.perfect-containar{
+    display: flex;
+    gap: 50px;
+}
+.perfect-video video{
+    width: 100%;
+}
+.perfect-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
