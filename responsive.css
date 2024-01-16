@@ -87,5 +87,36 @@
         width: 100%;
     
     }
+    .newslatter-containar{
+        flex-direction: column;
+    }
+    .newslatter-part{
+        margin: 0 50px;
+    }
+    .newslatter-iamge img{
+        width: 100%;
+    }
+    
+    .discount-box {
+       
+      
+      
+        width: 60%;
+        position: relative;
+        bottom: 130px;
+        left: 40%;
+        height: 50%;
+    
+    }
+    .footer{
+        padding: 50px;
+    }
+    .travel-grid{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+        /* margin-top: 40px; */
+    }
+    
 
 }

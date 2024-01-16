@@ -381,19 +381,27 @@ ul.a {
 }
 
 /* newslattar style */
-.newslatter-part{
+.newslatter-part {
     max-width: 1100px;
     margin: 0 auto;
 }
-.newslatter-containar{
+
+.newslatter-containar {
     display: flex;
+    gap: 50px;
 }
+
 .newslatter-form input {
     color: rgba(19, 19, 24, 0.30);
     font-size: 14px;
     font-weight: 400;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    display: block;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    border: 0;
 
 }
 
@@ -404,6 +412,9 @@ ul.a {
     font-weight: 800;
     border-radius: 8px;
     background: #FF5400;
+    padding: 20px;
+    width: 100%;
+    border: 0;
 
 }
 
@@ -415,11 +426,86 @@ ul.a {
 
 .dicount-title {
     color: #FFF;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 800;
 }
 
 .discount-box {
+    padding: 10px;
+    text-align: center;
     border-radius: 16px;
     background: #FF5400;
+    width: 300px;
+    position: relative;
+    bottom: 150px;
+    left: 55%;
+    height: 100px;
+    transform: rotate(-19.628deg);
+
+}
+
+.newslatter-form hr {
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newslatter-form {
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 100%;
+    margin-top: 30px;
+
+}
+
+.newslatter-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* footer style */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 200px;
+}
+.footer-containar{
+    text-align: center;
+
+}
+.footer-logo{
+ display: flex;
+ justify-content: center;
+}
+.footer-logo img{
+    height: 50px;
+    margin-right: 10px;
+    align-items: center;
+}
+.footer-containar hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 20px;
+}
+.social-icon a{
+    background: rgba(255, 255, 255, 0.15);
+    margin: 10px;
+}
+/* our travel */
+.our-travel{
+    width: 85%;
+    margin: 0px  auto 50px;
+}
+.tarvel-content{
+    text-align: center;
+}
+.travel-grid img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.travel-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 40px;
 }
