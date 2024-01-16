@@ -337,40 +337,89 @@ ul.a {
     font-size: 1.5rem;
     font-weight: 800;
     margin: 10px 0px;
-} 
+}
+
 /* perfect related style */
 
-.perfect-section{
-    
+.perfect-section {
+
     max-width: 1100px;
     margin: 50px auto;
 }
 
-.perfect-content ul{
-    margin:20px;
+.perfect-content ul {
+    margin: 20px;
 }
-.perfect-content li{
+
+.perfect-content li {
     color: #131318;
     font-size: 16px;
     font-weight: 700;
-  
-    
+
+
 
 }
 
-.perfect-containar > div{
+.perfect-containar>div {
     width: 50%;
 
 }
-.perfect-containar{
+
+.perfect-containar {
     display: flex;
     gap: 50px;
 }
-.perfect-video video{
+
+.perfect-video video {
     width: 100%;
 }
-.perfect-video{
+
+.perfect-video {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* newslattar style */
+.newslatter-part{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.newslatter-containar{
+    display: flex;
+}
+.newslatter-form input {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+.secound-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+
+.discount-sub-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dicount-title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.discount-box {
+    border-radius: 16px;
+    background: #FF5400;
 }
