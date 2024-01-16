@@ -32,4 +32,28 @@
     .popular-containar > div {
         width: 100%;
     }
+    .image-containar img {
+        height: 300px;
+    }
+    .image-containar {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-top: 0;
+       
+    }
+    .choss-content{
+        width: 100%;
+        
+    }
+    .choos-containar{
+        margin: 0 50px;
+    }
+    .grid-title {
+       
+        position: relative;
+        bottom: 170px;
+      
+      }
+ 
 }
