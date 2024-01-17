@@ -5,12 +5,49 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+   
 }
 
 .header-section {
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 0px auto;
 }
+nav{
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+
+    font-size: 35px;
+    font-weight: bold;
+   /* margin-left: 20px; */
+
+}
+nav .nav-ul{
+    float: right;
+    /* margin-right: 20px; */
+}
+nav .nav-ul li{
+    display: inline-block;
+   margin-top: 0;
+    
+}
+nav .nav-ul li a{
+    font-size: 17px;
+    /* padding: 7px 13px; */
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height:80px ;
+    cursor: pointer ;
+    display: none;
+     
+}
+#check{
+    display: none ;
+}
+
 
 .logo img {
     width: 42px;
@@ -46,17 +83,15 @@ nav h2 {
     display: flex;
     gap: 10px;
     padding: 5px;
+    align-items:center ;
+    position: relative;
+    top: 30px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
-
-.nav-ul {
-    display: flex;
-}
+ 
 
 .nav-ul li {
     list-style: none;
@@ -183,10 +218,8 @@ popular related style */
 }
 
 
-ul.a {
-    /* list-style-type: square;
-    display: flex;
-    flex-direction: column; */
+.population-ul {
+ 
     color: rgba(19, 19, 24, 0.70);
     font-size: 14px;
     font-weight: 400;
@@ -228,6 +261,9 @@ ul.a {
 
 .popular-image img {
     width: 100%;
+}
+.population-ul li{
+    margin-left: 20px;
 }
 
 /* Choose Your Destination */
@@ -347,7 +383,7 @@ ul.a {
     margin: 50px auto;
 }
 
-.perfect-content ul {
+.perfect-content , .perfect-ul {
     margin: 20px;
 }
 
@@ -355,6 +391,7 @@ ul.a {
     color: #131318;
     font-size: 16px;
     font-weight: 700;
+    margin-top: 20px;
 
 
 
@@ -509,3 +546,5 @@ ul.a {
     gap: 30px;
     margin-top: 40px;
 }
+
+/* mobail device a bare icon related style */
